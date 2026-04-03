@@ -27,6 +27,12 @@ Managing money shouldn’t feel cluttered. Aurum is built to:
 Aurum is a frontend dashboard built with React. The UI is composed of reusable layout and UI components, and state is handled with a lightweight store. The app runs locally with Vite, giving fast reloads and a smooth developer experience.
 
 ## Getting Started
+### 0. Clone the repository
+```bash
+git clone <your-repo-url>
+cd aurum-dashboard
+```
+
 ### 1. Install dependencies
 ```bash
 npm install
@@ -46,6 +52,17 @@ npm run build
 ```bash
 npm run preview
 ```
+
+## Contributing
+We welcome improvements and refinements. To contribute:
+1. Create a new branch for your work.
+2. Make focused, well‑scoped changes.
+3. Run lint/build before opening a pull request.
+
+### Local development tips
+- Keep UI changes small and testable.
+- Follow the existing component and naming conventions.
+- If you introduce new UI, prefer reusable components in `src/components/`.
 
 ## Project Structure
 - `src/` – application source
