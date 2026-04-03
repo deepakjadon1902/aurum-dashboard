@@ -16,12 +16,23 @@ export const Topbar = () => {
 
   return (
     <header className="sticky top-0 z-30 h-16 flex items-center justify-between px-4 md:px-6 border-b border-border bg-card/60 backdrop-blur-xl">
-      <button
-        onClick={() => setSidebarOpen(!sidebarOpen)}
-        className="lg:hidden p-2 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted/50 transition-colors"
-      >
-        <Menu className="w-5 h-5" />
-      </button>
+      <div className="flex items-center gap-3">
+        <button
+          onClick={() => setSidebarOpen(!sidebarOpen)}
+          className="lg:hidden p-2 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted/50 transition-colors"
+        >
+          <Menu className="w-5 h-5" />
+        </button>
+
+        <div className="flex items-center gap-2">
+          <img
+            src="/aurum%20logo.jpeg"
+            alt="Aurum logo"
+            className="h-8 w-8 rounded-md object-contain"
+          />
+          <span className="hidden sm:inline text-sm font-semibold text-foreground tracking-wide">Aurum</span>
+        </div>
+      </div>
 
       <div className="flex-1" />
 
