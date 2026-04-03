@@ -29,7 +29,7 @@ Aurum is a frontend dashboard built with React. The UI is composed of reusable l
 ## Getting Started
 ### 0. Clone the repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/deepakjadon1902/aurum-dashboard
 cd aurum-dashboard
 ```
 
